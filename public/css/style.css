@@ -1,0 +1,37 @@
+body {
+  padding: 20px 20px;
+}
+.container {
+  display: block;
+}
+.container-text {
+  margin-top: 64px;
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input[type="button"] {
+  border-radius: 4px;
+  margin-left: 64px;
+  box-shadow: 1px 1px 1px 0.5px #5c5656;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-found {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-users {
+  margin-right: 64px;
+  border: 1px solid #b1abab;
+  border-radius: 8px;
+}
+
+.container-statistics {
+  margin-left: 64px;
+  border: 1px solid #b1abab;
+  border-radius: 8px;
+}

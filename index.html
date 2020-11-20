@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisa de usuarios</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p class="loading"></p>
+      <h1>Pesquisa de usuários</h1>
+      <h6>Digite o nome ou as iniciais do usuário:</h6>
+      <div class="form input-field col s6">
+        <input id="input" type="text" class="validate" />
+        <label class="active" for="first_name2">Busca:</label>
+        <button id="button" class="waves-effect waves-light btn" disabled>
+          Buscar
+        </button>
+      </div>
+
+      <div class="pesquisa-container">
+        <div class="encontrados">
+          <div id="tabUsuarios">
+            <h5>Nenhum usuário filtrado</h5>
+          </div>
+        </div>
+        <div class="estatisticas">
+          <div id="tabEstatistica">
+            <h5>Nada a ser exibido</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rodape">
+      <ul>
+        <li>Desenvolvido por: André Viana</li>
+        <li>Trabalho prático: Módulo 1 - Desenvolvedor Full Stack – IGTI</li>
+        <li>linkedin: https://www.linkedin.com/in/andrevianasilva</li>
+
+      </ul>
+    </div>  
+
+    <script src="script.js"></script>
+  </body>
+</html>

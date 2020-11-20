@@ -1,0 +1,95 @@
+.form {
+  display: flex;
+}
+.pesquisa-container {
+  display: flex;
+  border-style: groove;
+  justify-content: space-around;
+}
+
+h1 {
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content:start; */
+  /* align-items: space-between; */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  }
+  #wrapper{
+  min-height: 100%;
+  position: relative;
+  }
+  div.body-content{
+    /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+  padding-bottom: 100px;
+  }
+
+
+.loading,
+.loading:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.loading {
+  align-self: center;
+  animation: load8 1.1s infinite linear;
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #26a69a;
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  font-size: 10px;
+  margin: 60px;
+  margin-right: 100px;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.encontrados,
+.estatisticas {
+  border: 0.5px solid #cdc8c8;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  margin: 5px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.dados-usuarios {
+  margin-left: 7px;
+}
+.rodape {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background: #26a69a;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  }
